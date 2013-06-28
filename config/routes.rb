@@ -1,4 +1,7 @@
 Studentstalker::Application.routes.draw do
+  resources :students
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
